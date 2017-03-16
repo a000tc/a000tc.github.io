@@ -1,0 +1,88 @@
+ html,body{
+ 	background:#f7f7f7;
+ }
+
+.container {
+	width: 100%;
+	height: 100%;
+	font-size: 0.375rem;
+	position: absolute;
+	z-index: 2;
+}
+.padd{
+	padding: 0 3%;
+	box-sizing: border-box;
+}
+.container header{
+	background:#fff;
+	height: 1.25rem;
+	line-height: 1.25rem;
+
+	margin-bottom: 0.4688rem;
+	display: flex;
+	align-items: center;
+}
+.container header *{
+	display: inline-block;
+}
+.container header .back{
+	font-family: "SimSun";
+	font-weight: bold;
+}
+.content label{
+	width: 1.7188rem;
+	text-align: right;
+}
+.container header span{
+	width: 2.8125rem;
+	margin: 0 auto;
+}
+.content{
+	background:#fff;
+}
+.content p{
+	height: 1.25rem;
+	line-height: 1.25rem;
+	border-bottom: 1px solid #eee;
+}
+.content p input{
+	outline: none;
+	width:6rem;
+}
+.location{
+	display: inline-block;
+	color: #ff1250;
+	font-weight: bold;
+	background:url("../img/icon_location.png")center 0.1562rem no-repeat;
+	background-size: 0.3438rem 0.4062rem;
+	line-height: 1.8rem;
+}
+#BMap{
+	visibility: hidden;
+	width: 100% !important;
+	height:100% !important;
+	overflow: hidden !important;
+	position: fixed !important;
+	bottom: 0!important;
+	z-index: 3!important;
+
+}
+.active_none {
+	display: none;
+}
+.active_block {
+	display: block;
+}
+.return{
+	color: #fff;
+	background:red!important;
+	position: fixed !important;
+	z-index: 999!important;
+	top:0 !important;
+	right: 0 !important;
+	display: inline-block;
+
+}
+.map_con {
+	display: none;
+}

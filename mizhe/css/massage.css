@@ -1,0 +1,105 @@
+/*头部*/
+
+body{
+	position: relative;
+}
+
+.massage_header{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.massage_header span{
+	height: 1.2656rem;
+	line-height: 1.2656rem;
+	font-size: 0.4375rem;
+	font-weight: normal;
+	color:#333333;
+	text-align: center;
+	display: inline-block;
+	width: 91%;
+}
+.massage_header{
+	height: 1.2656rem;
+	border-bottom: 1px #dddddd solid;
+}
+.massage_header a{
+	color:#333333;
+	font-family: "SimSun";
+	font-size: 0.5rem;
+	display: inline-block;
+	width: 9%;
+	text-align: center;
+	line-height: 1.2656rem;
+}
+
+
+/*正文内容*/
+.massage_connter{
+	width: 100%;
+}
+
+.massage_connter li{
+	width: 90%;
+	margin:0 auto;
+	height: 1.7188rem;
+	border-bottom: 1px #eeeeee solid;
+	padding-left: 1.25rem;
+	padding:0.3438rem 0 0.3438rem 1.25rem;
+	box-sizing: border-box;
+}
+
+.massage_connter li:nth-child(1){
+	background: url("../img/masage_1.jpg") 0 center no-repeat;
+	background-size: 1.0312rem; 
+}
+
+.massage_connter li:nth-child(2){
+	background: url("../img/masage_2.jpg") 0 center no-repeat;
+	background-size: 1.0312rem; 
+}
+
+.massage_connter li:nth-child(3){
+	background: url("../img/masage_3.jpg") 0 center no-repeat;
+	background-size: 1.0312rem; 
+}
+
+.massage_connter li:nth-child(4){
+	background: url("../img/masage_4.jpg") 0 center no-repeat;
+	background-size: 1.0312rem; 
+}
+
+.massage_connter li p:nth-child(1){
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-bottom: 0.15rem;
+}
+
+.massage_connter li p:nth-child(1) span:nth-child(1){
+	font-size:0.375rem;
+	color:#333333;
+}
+
+.massage_connter li p:nth-child(1) span:nth-child(2){}
+
+.massage_connter li p{
+	text-overflow : ellipsis; 
+	white-space : nowrap; 
+	overflow : hidden;
+	color:#999999;
+}

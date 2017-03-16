@@ -1,0 +1,121 @@
+@charset "utf-8";
+body,
+html {
+    font-family: "Microsoft YaHei";
+}
+
+header {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 0.4375rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    z-index: 11;
+}
+
+header * {
+    display: inline-block;
+    flex: 1;
+}
+
+.padd {
+    padding: 0 3%;
+    width: 94%;
+}
+
+.back {
+    font-size: 0.4688rem;
+    font-family: "SimSun";
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.h60 {
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    border-bottom: 1px solid #eee;
+}
+
+.content {
+    margin-top: 1.25rem;
+    background: #fff;
+}
+
+.express-title {
+    height: 1.0938rem;
+    line-height: 1.0938rem;
+    font-size: 0.3438rem;
+    border-bottom: 1px solid #eee;
+}
+
+.express-info p {
+    font-size: 0.3438rem;
+    line-height: 0.9375rem;
+    font-size: 0.3125rem;
+    line-height: 0.546875rem;
+}
+
+.content ul li {
+    width: 91%;
+    margin-left: 3%;
+    color: gray;
+    padding: 0.3125rem 0 0.3125rem 0.3125rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.express-info ul li i {
+    position: absolute;
+    top: 0.390625rem;
+    left: -0.171875rem;
+    z-index: 3;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    height: 0.34375rem;
+    border-radius: 50%;
+    background: #eee;
+    box-shadow: 0 0 0 3px #eee;
+}
+
+.express-info ul li em {
+    width: 90%;
+    height: 1px;
+    background: #eee;
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    margin-left: 5%;
+}
+
+.express-info ul li b {
+    height: 2.1875rem;
+    width: 1px;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.express-info ul li b.first-line {
+    height: 90%;
+    margin-top: 5%;
+}
+
+.express-info ul li b.last-line {
+    height: 40%;
+}
+
+.express-info ul li.on i {
+    background: #7bb008;
+    box-shadow: 0 0 0 3px #bdd783;
+}
+
+.express-info ul li.on * {
+    color: #7bb008;
+}

@@ -1,0 +1,493 @@
+.overflow {
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    overflow-y: auto;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 1.2188rem;
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+header>a {
+    height: 100%;
+    line-height: 1.2188rem;
+    display: inline-block;
+    width: 33.333%;
+    font-size: 0.4688rem;
+    font-family: "SimSun";
+    text-align: left;
+    vertical-align: middle;
+}
+
+.nav-ul {
+    height: 100%;
+    width: 33.333%;
+    display: inline-block;
+    display: flex;
+    flex: 1;
+}
+
+.nav-ul li.active {
+    border-bottom: 2px solid #ff2150;
+}
+
+.nav-ul li {
+    flex: 1;
+    float: left;
+    height: 100%;
+    line-height: 1.2188rem;
+    text-align: center;
+}
+
+.head-right {
+    width: 33.333%;
+    display: inline-block;
+    height: 1.2188rem;
+    line-height: 1.2188rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.3125rem;
+    box-sizing: border-box;
+}
+
+.shop-car {
+    width: 1.0938rem;
+    height: 1.2188rem;
+    background: url("../img/icon_car.png")0 center no-repeat;
+    background-size: 85%;
+    position: relative;
+}
+
+.head-right>a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.more {
+    width: 1.0938rem;
+    text-align: center;
+    font-size: 0.4688rem;
+}
+
+.count {
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    width: 0.4688rem;
+    height: 0.4688rem;
+    line-height: 0.4688rem;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.padd {
+    padding: 0 3%;
+    height: auto;
+}
+
+.h60 {
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    overflow: hidden;
+}
+
+.advertise div span {
+    line-height: 0.9375rem;
+}
+
+.advertise div a {
+    line-height: 0.9375rem;
+}
+
+.advertise img {
+    width: 100%;
+}
+
+.advertise * {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.title {
+    margin-bottom: 0.3125rem;
+}
+
+.advertise img {
+    height: 8.4375rem;
+}
+
+.evaluate,
+.evaluate {
+    font-size: 0.3438rem;
+}
+
+.gray {
+    width: 100%;
+    height: 0.1562rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f7f7f7;
+}
+
+.coupon span {
+    display: inline-block;
+    background: url("../img/icon_coupon.png")0 center no-repeat;
+    background-size: 0.4062rem;
+    padding-left: 0.4688rem;
+    box-sizing: border-box;
+}
+
+a.ctrl {
+    font-family: "SimSun";
+    font-size: 0.375rem;
+    font-weight: bold;
+}
+
+.sell-left span:first-child {
+    margin-right: 0.1562rem;
+    font-size: 0.375rem;
+    color: #ff2150;
+}
+
+.promotion {
+    text-align: center;
+    background: #ff2150;
+    color: white;
+    padding: 0.0781rem;
+}
+
+.ass-left * {
+    display: inline-block;
+    float: left;
+}
+
+.ass-left,
+.ass-right {
+    display: inline-block;
+    width: 46%;
+}
+
+.ass-left img {
+    margin-top: 0.1562rem;
+    margin-right: 0.1562rem;
+    width: 0.7812rem;
+    height: 0.7812rem;
+}
+
+.evaluate {
+    border-bottom: 1px solid #eee;
+}
+
+.ass-ul {
+    float: right;
+    height: 0.9375rem;
+}
+
+.ass-ul li {
+    width: 0.3125rem;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    float: left;
+}
+
+.ass-ul li span {
+    display: inline-block;
+    width: 0.2969rem;
+    height: 0.2969rem;
+    background: url("../img/icon_star_yellow.png")0 0 no-repeat;
+    background-size: 100%;
+}
+
+.ass-secp {
+    color: gray;
+    line-height: 0.9375rem;
+}
+
+.ass-thirdp {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    line-height: 0.9375rem;
+}
+
+.flag-left img {
+    background: #cea659;
+    width: 0.9219rem;
+    height: 0.8438rem;
+    margin-right: 0.1562rem;
+}
+
+.flagship .flag-right {
+    border: 1px solid #ff2150;
+    color: #ff2150;
+}
+
+.flagship .flag-top {
+    height: 1.0938rem;
+    margin-top: 0.3906rem;
+    overflow: hidden;
+}
+
+.flagship .flag-right img {
+    margin: 0 auto;
+}
+
+.flag-secp {
+    color: gray;
+}
+
+.counts {
+    color: #ff2150;
+}
+
+.level {
+    background: #ff2150;
+    color: white;
+}
+
+.flag-ul {
+    display: flex;
+}
+
+.flag-ul li {
+    float: left;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.flag-ul li span {
+    margin-right: 0.0781rem;
+}
+
+.flag-p {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.4062rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.flag-bottom {
+    height: 1.5625rem;
+    padding-top: 0.3906rem;
+    box-sizing: border-box;
+}
+
+.flag-bottom a {
+    line-height: 0.7812rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    box-sizing: border-box;
+    margin-right: 0.4688rem;
+    line-height: 0.7812rem;
+    height: 0.7812rem;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.rec-ul {
+    display: flex;
+    overflow: hidden;
+}
+
+.rec-ul li {
+    flex: 1;
+    float: left;
+    position: relative;
+}
+
+.rec-ul li img {
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+
+.rec-ul li span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.4688rem;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.popup {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.popup-con {
+    position: fixed;
+    bottom: 0;
+    height: 12.5rem;
+    width: 100%;
+    background: #fff;
+}
+
+.rep-left img {
+    width: 2.0312rem;
+    height: 2.0312rem;
+}
+
+.repertory {
+    width: 94%;
+    padding-top: 0.4688rem;
+    padding-bottom: 0.4688rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    font-size: 0.3438rem;
+}
+
+.rep-left {
+    margin-right: 0.4688rem;
+}
+
+.rep-center {
+    width: 4.6875rem;
+    display: inline-block;
+}
+
+.rep-center p.rep-firstp {
+    color: #ff2150;
+    font-size: 0.4375rem;
+    line-height: 0.5469rem;
+    margin-bottom: 0.625rem;
+}
+
+.rep-right {
+    text-align: right;
+    width: 1.5625rem;
+}
+
+.close {
+    font-size: 0.5469rem;
+    line-height: 0.5469rem;
+}
+
+.rep-center p {
+    color: gray;
+}
+
+.popup a.active {
+    background: #ff2150;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.choose-secp {
+    width: 94%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choosesize {
+    border-bottom: 1px solid #eee;
+}
+
+.choosesize p a {
+    padding: 5px;
+    height: 0.3438rem;
+    line-height: 0.3438rem;
+    font-size: 0.3438rem;
+    border-radius: 3px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.choosecolor {
+    height: 2.0312rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3906rem;
+    box-sizing: border-box;
+}
+
+.amount span {
+    text-align: center;
+    display: inline-block;
+    width: 0.7812rem;
+    background: #f7f7f7;
+    margin-right: 0.1562rem;
+}
+
+.rep-btn {
+    width: 100%;
+    height: 1.25rem;
+    background: #ff2150;
+    position: absolute;
+    bottom: 0.1562rem;
+    color: #fff;
+    font-size: 0.4375rem;
+}
+
+footer a {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    height: 1.25rem;
+}
+
+footer {
+    display: flex;
+    width: 94%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: white;
+}
+
+footer>a>img {
+    margin: 0 auto;
+    width: 0.4688rem;
+    height: 0.4688rem;
+}
+
+.fourtha,
+.fiftha {
+    width: 2.5rem;
+    text-align: center;
+    line-height: 0.9375rem;
+    height: 0.9375rem;
+    text-align: center;
+    border: 1px solid #ff2150;
+    border-radius: 5px;
+}
+
+.fourtha {
+    margin-right: 0.1562rem;
+    color: #ff2150;
+}
+
+.fiftha {
+    background: #ff2150;
+    color: white;
+}
+
+
+/*.ass-ul li span.changeStar{
+	display: inline-block;
+    width: 0.2969rem;
+    height: 0.2969rem;
+	background:url("../img/icon_star_yellow.png") 0 0 no-repeat;
+	background-size: 100%;
+}*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>编辑收货地址</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="wap-font-scale" content="no">
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/edit-address.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="padd clearfix">
+            <a href="javascript:window.history.back()" class="back ">
+                <</a>
+                    <span>编辑收货地址</span>
+                    <a href="address.html" class="">完成</a>
+        </header>
+        <div class="gray"></div>
+        <div class="content padd">
+            <form action="">
+                <p><label for="">收货人:</label> <input type="text"></p>
+                <p><label for="">手机号:</label> <input type="text"></p>
+                <p><label for="">省市区:</label> <input type="text" id="input"><a href="#" class="fr location" id="location">定位</a></p>
+                <p><label for="">详细地址:</label> <input type="text"></p>
+            </form>
+        </div>
+    </div>
+    <div class="map_con"><a href="#" class="back return">返回</a>
+        <div class="BMap" id="BMap">
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+    </script>
+    <script src="../js/edit-address.js"></script>
+</body>
+
+</html>

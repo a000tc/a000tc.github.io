@@ -1,0 +1,236 @@
+
+html,body{
+	background-color: #f7f7f7;
+}
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 2.25rem;
+	position: relative;
+	color:#fff;
+	font-family: "Microsoft YaHei";
+}
+.padd{
+	width: 100%;
+	padding:0 3%;
+	box-sizing: border-box;
+}
+.h60{
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	background: #fff;
+	margin-bottom: 0.4688rem;
+}
+.head-img{
+	width: 100%;
+	height: 2.25rem;
+	position: absolute;
+	top: 0;
+	z-index: 2;	
+}
+.head-img img{
+	width: 100%;
+	height: 2.1875rem;
+}
+.personal-info{
+	width: 100%;
+	padding-left: 3%;
+	padding-top: 0.46875rem;
+	box-sizing: border-box;
+	height: 2.25rem;
+	position: absolute;
+	top: 0;
+	z-index: 3;	
+}
+.header-left img{
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-right: 0.3125rem;
+}
+.header-right p:nth-child(1){
+	line-height: 0.703125rem;
+	font-size: 0.4375rem;
+}
+.header-right p:nth-child(2){
+	line-height: 0.546875rem;
+	font-size: 0.28125rem;
+}
+.order-left{
+	background: url("../img/icon_order.png") 0 center no-repeat;
+	background-size: 0.46875rem;
+	padding-left: 0.46875rem;
+	box-sizing: border-box;
+	font-size: 0.3438rem;
+}
+.order-right span{
+	font-size: 0.2812rem;
+	color:gray;
+}
+.collect-count{
+	display: inline-block;
+	margin-left: 0.625rem;
+}
+.go{
+	font :0.375rem /0.9375rem "SimSun";
+	padding-left: 0.15625rem;
+	box-sizing: border-box;
+	font-weight: bold;
+	color:gray;
+}
+.order-title{
+	height:0.90625rem;
+	line-height: 0.9375rem;
+	background-color: #fff;
+}
+.wait{
+	padding-top:0.3125rem; 
+	display:flex;
+	width: 100%;
+	height:1.6406rem;
+	padding:0.3125rem 0.625rem 0.3125rem  0.625rem;
+	box-sizing: border-box;
+	justify-content: space-between;
+	background-color: #fff;
+	margin-bottom: 0.4688rem;
+}
+.wait>div{
+	flex: 1;
+	text-align: center;
+}
+ 
+.wait div{
+	background-size:0.5469rem;
+}
+.pay{
+	background: url("../img/icon_waitpay.png")center 0 no-repeat;
+}
+.get{
+	position:relative;
+	background: url("../img/icon_waitget.png")center 0 no-repeat;
+}
+.evaluate{
+	background: url("../img/icon_evaluate.png")center 0 no-repeat;
+}
+.service{
+	background: url("../img/icon_service02.png")center 0 no-repeat;
+}
+.wait div span{
+	display: inline-block;
+	margin-top: 0.4688rem;
+	text-align: center;
+	line-height:0.625rem;
+}
+.wait div .get-count{
+	display: inline-block;
+	width:0.4688rem;
+	height:0.4688rem;
+	line-height: 0.4688rem;
+	border-radius: 50%;
+
+	color:#fff;
+	background:#ff1250;
+	position: absolute;
+    top: -0.48rem;
+    right: 0.5rem;
+	font-size: 0.1875rem;
+}
+.myremain div{
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	border-bottom: 1px solid #eee;
+	display: flex;
+}
+.myremain div span{
+	display: inline-block;
+	background-size:0.4688rem;
+	padding-left:0.7812rem;
+	box-sizing:border-box; 
+}
+.myremain div >*{
+	vertical-align: middle;
+	flex: 1;
+}
+a.link{
+	text-align: right;
+	font-family: "SimSun";
+	font-weight: bold;
+}
+.remaining span{
+	background: url("../img/icon_remaining02.png")0 center no-repeat;
+}
+.integral span{
+	background: url("../img/icon_integral.png")0 center no-repeat;
+}
+.coupon span{
+	background:url("../img/icon_coupon.png")0 center no-repeat;
+}
+.address span{
+	display: inline-block;
+	background-size:0.4688rem;
+	padding-left:0.7812rem;
+	box-sizing:border-box; 
+	background: url("../img/icon_address.png") 0 center no-repeat;
+}
+.address p{
+	display: flex;
+}
+.address p *{
+	flex: 1;
+}
+.tel p *{
+	flex: 1;
+}
+.service p{
+	display: flex;
+}
+.service p *{flex: 1;}
+.service-tel{
+	display: inline-block;
+	background-size:0.4688rem;
+	padding-left:0.7812rem;
+	box-sizing:border-box; 
+	background: url("../img/icon_service03.png") 0 center no-repeat;
+}
+.tel p{
+	display: flex;
+}
+.tel p .fr{
+	text-align: right;
+}
+footer{
+    width: 100%;
+    height: 1.25rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer a{
+	display: block;
+	float: left;
+	width:25%;
+	height: 100%;
+	font-size: 0.2812rem;
+	text-align: center;
+	padding-top: 0.7812rem;
+	box-sizing: border-box;
+}
+footer a:nth-child(1){
+	background: url("../img/icon_home.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(2){
+	background: url("../img/pic_find.jpg") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(3){
+	background: url("../img/pic_car.jpg") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(4){
+	background: url("../img/icon_person02.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}

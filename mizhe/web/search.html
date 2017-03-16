@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>搜索页</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="wap-font-scale" content="no">
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/search.css">
+</head>
+
+<body>
+    <header>
+        <a href="javascript:window.history.back()" class="back">
+            <</a>
+                <form action="">
+                    <input type="text" placeholder="请输入搜索内容" class="search-input">
+                    <em></em>
+                    <span class="delete-search">取消</span>
+                </form>
+    </header>
+    <div class="content">
+        <div class="search-store">
+            <img src="../img/icon_search03.png" alt=""> 最近搜索
+            <span class="clear"></span>
+        </div>
+        <ul class="store-list">
+
+        </ul>
+    </div>
+    <script src="../js/localforage.min.js"></script>
+    <script src="../js/search.js"></script>
+</body>
+
+</html>

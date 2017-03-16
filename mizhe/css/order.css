@@ -1,0 +1,216 @@
+header {
+    font-size: 0.4375rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    display: flex;
+}
+
+header * {
+    display: inline-block;
+    flex: 1;
+}
+
+.padd {
+    margin: 0 auto;
+    width: 94%;
+}
+
+.back {
+    font-size: 0.4688rem;
+    font-family: "SimSun";
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.h60 {
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    border-bottom: 1px solid #eee;
+}
+
+.gray {
+    width: 100%;
+    height: 0.4688rem;
+    background: #f7f7f7;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
+}
+
+.content {
+    font-size: 0.3438rem;
+}
+
+.sure-address:first-child {
+    font-size: 0.375rem;
+    line-height: 0.7812rem;
+}
+
+.sure-address:nth-child(2) {
+    font-size: 0.3125rem;
+    line-height: 0.4688rem;
+}
+
+.sure-address>p>a {
+    display: inline-block;
+    font-size: 0.4688rem;
+    font-family: "SimSun";
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.grayfont {
+    color: gray;
+}
+
+.border {
+    background: url("../img/pic_addresscolor.png")0 0 repeat-x;
+    width: 100%;
+    height: 5px;
+}
+
+.store-title {
+    height: 1.0938rem;
+    line-height: 1.0938rem;
+}
+
+.store-title * {
+    vertical-align: middle;
+}
+
+.goods-logo {
+    background: #cea659;
+    width: 0.6562rem;
+    height: 0.6562rem;
+    border-radius: 50%;
+    margin-right: 0.2188rem;
+}
+
+.goods-info>p {
+    border-bottom: 1px solid #ccc;
+}
+
+.goods-firstp {
+    height: 1.0938rem
+}
+
+.goods-info>p * {
+    display: inline-block;
+}
+
+.store_name {
+    font-size: 0.375rem;
+    line-height: 1.0938rem;
+}
+
+.choose {
+    margin-top: 0.3125rem;
+    display: inline-block;
+    background: #fff;
+    width: 0.4062rem;
+    height: 0.4062rem;
+    border-radius: 50%;
+    background: url('../img/icon-select.png')0 0 no-repeat;
+    background-size: 100%;
+}
+
+.goods-ul {
+    width: 100%;
+}
+
+.goods-ul li {
+    width: 100%;
+    height: 1.5625rem;
+    padding: 0.3125rem 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.goods-ul li * {
+    vertical-align: middle;
+}
+
+.goods-ul li .img {
+    width: 0.9375rem;
+    height: 0.9375rem;
+}
+
+.goods-parameter,
+.goods-img {
+    display: inline-block;
+}
+
+.goods-parameter {
+    width: 87%;
+}
+
+.parameter-secp {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: inline-block;
+}
+
+.parameter-secp .grayfont {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 0.375rem;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.usable {
+    background: #ff1250;
+    color: #fff;
+    margin-left: 0.3125rem;
+    border-radius: 3px;
+    padding: 0 0.1562rem;
+    font-size: 0.2812rem;
+}
+
+.use-count {
+    margin-left: 0.3125rem;
+    font-size: 0.3438rem;
+}
+
+.selected {
+    background: url("../img/icon-selected.png")0 0 no-repeat;
+    background-size: 100%;
+}
+
+input {
+    padding: 5px 0 5px 10px;
+    outline: none;
+}
+
+.redfont {
+    color: #ff1250;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.2812rem;
+    line-height: 1.25rem;
+    height: 1.25rem;
+}
+
+footer p span.fl {
+    display: inline-block;
+    width: 7.5rem;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
+footer p span.fr {
+    display: inline-block;
+    width: 2.5rem;
+    background: #ff1250;
+    text-align: center;
+}
+
+footer p span.fr a {
+    color: white;
+    font-size: 0.3125rem;
+}

@@ -1,0 +1,109 @@
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f3f5f7;
+}
+header{
+	line-height: 0.9375rem;
+	
+}
+header h2{
+	text-align: center;
+	font-weight: normal;
+}
+header a{
+	display: block;
+	font-family: "SimSun";
+	font-size: 0.6562rem;
+	line-height: 0.9375rem;
+	position: absolute;
+	left: 3%;
+	top:0;
+
+}
+.content{
+	padding:0.625rem 3% 0;
+}
+.content form input{
+	width: 100%;
+	height:0.9375rem;
+	margin-bottom:0.4688rem;
+	padding:0 0.1562rem;
+	box-sizing: border-box;
+	outline: none;
+	border-radius: 0.0625rem;
+	border:1px #eee solid;
+	border-radius: 5px;
+}
+.form-item2{
+	position: relative;
+}
+.form-item2 *{
+	vertical-align: center;
+}
+.form-item3{
+	position: relative;
+}
+.form-item3 img{
+	width:3rem;
+	height:0.9375rem;
+	position: absolute;
+	top:0px;
+	right: 0;
+	z-index: 20;
+}
+.content .form-item4.active{
+	background: #de7f03;
+	color: #fff;
+}
+.psw-ctrl{
+	width: 1.8rem;
+	height:0.9062rem;
+	border-radius: 0.625rem;
+	background: #ddd;
+	position: absolute;
+	z-index: 20;
+	top: 0px;
+    right: 0px;
+}
+.psw-ctrl span{
+	display: block;
+	background:pink;
+	width: 0.9375rem;
+	height: 0.9062rem;
+	position: absolute;
+	z-index: 22;
+	border-radius: 0.625rem;
+}
+.psw-ctrl.active{
+	background: #43a513;
+}
+.psw-ctrl.active span{
+	right:0!important;
+	left: auto;
+}
+.form-item4{
+	background: #ccc;
+}
+.form-item4.active{
+	background: #de7f03;
+	color: #fff;
+}
+.message {
+	position: relative;
+	width: 100%;
+
+}
+.message a{
+	position: absolute;
+	display: block;
+	background: #ccc;
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	right:0;
+	border-radius: 0.1562rem;
+}
+.agreement p span:hover{
+	color: red;
+}

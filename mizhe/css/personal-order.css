@@ -1,0 +1,144 @@
+@charset "utf-8";
+body,html{
+	background-color:#f7f7f7;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	overflow-x: hidden;
+	font-size: 0.4375rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	display: flex;
+    position: fixed;
+    top:0;
+    background-color: #fff;
+    z-index: 11;
+}
+header *{
+	display: inline-block;
+	flex: 1;
+}
+.padd{
+	padding: 0 3%;
+	width: 94%;
+}
+.back{
+	font-size: 0.4688rem;
+	font-family: "SimSun";
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.h60{
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	border-bottom: 1px solid #eee;
+}
+.tabBox .hd{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0.9375rem;
+    z-index: 10;
+    background-color: #fff;
+}
+.tabBox .hd ul{
+	display: flex;
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	justify-content:space-between;
+}
+.tabBox .hd ul li.on{
+	border-bottom: 2px solid #ff1250;
+}
+.tabBox .hd ul li{
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	flex: 1;
+	text-align: center;
+	font-size: 0.375rem;
+}
+.tempWrap {
+    margin-top:2.1875rem;
+    height: 100%;
+}
+.bd ul{
+	width:100%;
+    height:100%;
+}
+.tabBox .bd ul li{
+	margin-bottom: 0.4688rem;
+	padding:0 3%;
+}
+.store-title{
+	font-size: 0.3438rem;
+	display: flex;
+	justify-content:space-between;
+}
+.store-title > *{
+	flex: 1;
+}
+.store-title .back{
+	font-size: 0.3438rem;
+}
+.wait-getgoods{
+	text-align: right;
+}
+.product {
+	background: #fff;
+}
+.goods-center{
+	width: 64%;
+}
+.goods-right{
+	width: 15%;
+	text-align: right;
+}
+.goods-info{
+	padding: 0.2344rem 0;
+	border-bottom:1px solid #eee;
+}
+.goods-info >div{
+	display: inline-block;;
+}
+.goods-img{
+	width: 15%;
+	padding-right: 0.1562rem;
+}
+.goods-img img{
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.grayfont{
+	color: gray;
+}
+.total{
+	text-align: right;
+}
+.total-price {
+	color: #ff1250;
+}
+.status >div{
+	display: inline-block;
+}
+.status-right a{
+	display: inline-block;
+	height: 0.625rem;
+	text-align: center;
+	padding:0 0.1562rem;
+	border:1px solid #eee;
+	line-height: 0.625rem;
+	border-radius: 0.0781rem;
+}
+.status-right *{
+	vertical-align: middle;
+}
+.logistics{
+	background-color: #fff;
+}
+.redbg{
+	color: #fff;
+	background-color: #ff1250;
+}

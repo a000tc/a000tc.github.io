@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>付款页</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="../js/flexible.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/pay.css">
+</head>
+<body>
+	<header class="padd">
+		<a href="javascript:window.history.back()" class="back"><</a> 
+		<span>收银台</span>
+	</header>
+	<div class="content">
+		<div class="paymethod padd">
+			<div class="remaining">余额</div>
+			<div class="">
+				<i>可用余额:</i>
+				<em>0.00</em>
+				<i>元</i>
+				<span class="select"></span>
+			</div>
+		</div>
+		<div class="paymethod padd">
+			<div class="quickpay">快捷支付</div>
+			<div class="">
+				<span class="select"></span>
+			</div>
+		</div>
+		<div class="paymethod padd">
+			<div class="unionpay">银联支付</div>
+			<div class="">
+				<span class="select"></span>
+			</div>
+		</div>
+		<div class="paymethod padd">
+			<div class="wechatpay">微信支付</div>
+			<div class="">
+				<span class="select"></span>
+				<span class="recommend"></span><i class="rec">荐</i>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="fl">
+			<span>支付：￥</span>
+			<span class="count">498.5</span>
+		</div>
+		<div class="fr">
+			<a href="">付款</a>
+		</div>
+	</footer>
+	<script src="../js/pay.js"></script>
+</body>
+</html>

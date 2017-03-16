@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin:0;
+	border:0;
+}
+ul,ol{
+	list-style:none;
+}
+em,i{
+	font-style: normal;
+}
+strong,b{
+	font-weight: normal;
+}
+.clearfix:after{
+	display: block;
+	height: 0;
+	clear: both;
+	overflow:hidden;
+	content: "";
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	display: block;
+	border:0;
+}
+@media screen and (max-width: 320px) {
+	body{
+		font-size: 12px !important;
+	}
+}
+ .fl{
+	float: left;
+} 
+.fr{
+	float: right;
+}

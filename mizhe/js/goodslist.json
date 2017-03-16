@@ -1,0 +1,26 @@
+{
+	// "0":{
+	// 	"img":"../img/pic_wedding01.png",
+	// 	"describe":"高贵塔夫绸抹胸长拖尾婚纱",
+	// 	"price":"899",
+	// 	"s":"1600"},
+	// "1":{
+	// 	"img":"../img/pic_wedding02.png",
+	// 	"describe":"韩式斜肩坠花短拖尾婚纱",
+	// 	"price":"3398",
+	// 	"s":"300"},
+	// "2":{
+	// 	"img":"../img/pic_wedding03.png",
+	// 	"describe":"复古宫廷森系抹胸拖尾婚纱",
+	// 	"price":"500",
+	// 	"s":"980"},
+	// "3":{
+	// 	"img":"../img/pic_wedding04.png",
+	// 	"describe":"镂空长袖典雅鱼尾婚纱",
+	// 	"price":"560",
+	// 	"s":"1160"}
+	"0":{
+			"img":"../img/pic_wedding01.png",
+			"describe":"高贵塔夫绸抹胸长拖尾婚纱",
+	}
+}

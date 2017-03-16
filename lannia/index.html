@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min.css" type="text/css">
+	<style>
+		*{
+			margin: 0;
+			padding:0;
+		}
+		html,body{
+			width: 100%;
+			height:100%;
+			min-width: 1100px;
+			overflow:hidden;
+			position: relative;
+		}
+		ul{
+			list-style: none;
+		}
+
+		.wrap{
+			width: 100%;
+			height:100%;
+			transform-origin:50% 100%;  /*动画的起始中心点*/
+			animation-fill-mode: both!important;  /*（!important）表示权重最高*/
+		}
+		
+		.show{
+			width: 100%;
+			height:100%;
+			transform-origin:50% 100%;  /*动画的起始中心点*/
+			animation-fill-mode:both!important;
+		}
+		.top{
+			width: 100%;
+			height: 100%;
+		}
+		.bottom{
+			width: 100%;
+			height:100%;
+			transform:rotate(180deg);
+		}
+
+
+		.scale{   /*放大*/
+			animation:magnify 1s ease;
+		}
+		@keyframes magnify{
+			0%{ transform:scale(1,1);}
+			100%{ transform: scale(1.5,1.5);}
+		}
+		
+		.shrink{   /*输小*/
+			animation: shrink 1s ease;
+		}
+		@keyframes shrink{
+			0%{transform:scale(1.5,1.5);}
+			100%{transform:scale(1,1);}
+		}
+
+		.rotate{
+			animation:rotate 1s ease;
+		}
+		@keyframes rotate{
+			0%{ transform:rotate(0); }
+			100%{ transform: rotate(180deg); }
+		}
+
+		.rotate2{
+			animation:rotate2 1s ease;
+		}
+		@keyframes rotate2{
+			0%{transform:rotate(180deg);}
+			100%{ transform:rotate(360deg); }
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<menu>
+			<div class="menu active">
+				<span></span>
+				<i></i>
+				<em>蓝鸟首页</em>
+			</div>
+			<div class="menu ">
+				<span></span>
+				<i></i>
+				<em>狂想造型</em>
+			</div>
+			<div class="menu ">
+				<span></span>
+				<i></i>
+				<em>灵动驾控</em>
+			</div>
+			<div class="menu ">
+				<span></span>
+				<i></i>
+				<em>智能科技</em>
+			</div>
+			<div class="menu ">
+				<span></span>
+				<i></i>
+				<em>配置参数</em>
+			</div>
+			<div class="menu ">
+				<span></span>
+				<i></i>
+				<em>更多内容</em>
+			</div>
+		</menu>
+	</nav>
+	<div class="wrap">
+		<div class="show">
+			<div class="top"></div>
+	
+			<div class="bottom"></div>
+		</div>
+	</div>
+
+	<div class="display1 section">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide blue">
+			        <div class="blueimg">	        				
+						<img class="blueImgSize" src="img/center.png" alt="">
+						<img class="blueweizhi" src="img/1.png" alt="">
+						<a href="#"></a>
+						<div class="blueContent-text">
+							<p>东风日产乘用公司</p>
+							<p>广州市花都区风神大道8号</p>
+							<p>020-86872985</p>
+						</div>
+					</div>			
+			    </div>
+	       		<div class="swiper-slide red"></div>
+	    	</div>
+	   		<!-- 如果需要分页器 -->
+	   	 	<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	
+	<div class="display2 section">
+		<div class="dl2Content">
+			<img class="txt1" src="./img/txt1.png" alt="">
+			<img class="im" src="./img/im.png" alt="">
+			<img class="car" src="./img/car-1.png" alt="">
+			<img class="quan" src="./img/quan.png" alt="">
+			
+			<div class="examine" >
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			
+			<div class="animateEle">
+				<img class="bt-1 " src="./img/bt-1.png" alt="">
+				<span class="arrows1L "> > </span>
+			</div>
+			
+			<div class="animateEle">
+				<img class="bt-2 " src="./img/bt-2.png" alt="">			
+				<span class="arrows1R "> > </span>
+			</div>	
+			
+
+		</div>
+	</div>
+
+	<div class="display3 section">
+		<div class="dl3Content">
+			<img class="DIGE" src="./img/text.png" alt="">
+			<img class="carMgy" src="./img/car.png" alt="">
+			
+			<div class="animateEle">
+				<img class="diyi" src="./img/left.png" alt="">
+				<span class="arrows2L"> > </span>
+			</div>
+			
+			<div class="animateEle">
+				<img class="dier" src="./img/right.png" alt="">
+				<span class="arrows2R"> > </span>
+			</div>				
+		</div>
+	</div>
+	
+	<div class="display4 section">
+		<div class="dl4Conetnet">
+			<img src="./img/txt.png" alt="">
+			<img src="./img/person.png" alt="">
+			<img class="circle3" src="./img/btn-2.png" alt="">			
+			<img src="./img/car (1).png" alt="">
+			<img class="circle1" src="./img/circle1.png" alt="">
+			<img class="circle2" src="./img/circle2.png" alt="">
+			<img class="circle3" src="./img/circle3.png" alt="">
+				
+			<div class="circle3">
+				<img id="tupian" src="./img/btn-1.png" alt="">	
+				<span class="arrows3L"> > </span>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="display5 section">
+		<div class="dl5Conetent">
+			<ul class="chexing">
+				<li class="pzcs"></li>
+				<li><p>1.6L时尚版</p><p>MT</p></li>
+				<li><p>1.6L炫酷版</p><p>MT</p></li>
+				<li><p>1.6L炫酷版</p><p>CVT</p></li>
+				<li><p>1.6L智酷版</p><p>CVT</p></li>
+				<li><p>1.6L智炫版③</p><p>CVT</p></li>
+				<li><p>1.6L高能版</p><p>CVT</p></li>		
+			</ul>
+			
+			<div class="table">
+				<table>
+
+					<!-- 指导价格 -->
+					<tr class="price">
+						<td class="oneTd w225"><img src="./img/zhidaojiage.png" alt=""></td>
+						<td>10.59万元</td>
+						<td>10.59万元</td>
+						<td>10.59万元</td>
+						<td>10.59万元</td>
+						<td>10.59万元</td>
+						<td>10.59万元</td>
+					</tr>
+
+					<tr></tr>
+					
+					<!-- 车身尺寸及质量 -->
+					<tr class="bodysize bor">
+						<th class="tabg"><img src="./img/cheshenchicun.png" alt=""></th>
+					</tr>
+				
+					<tr>
+						<th>长x宽x高(mm)</th>
+						<td colspan="7" class="text-center">4683x1780x1465</td>
+					</tr>
+
+					<tr>
+						<th>轴距(mm)</th>
+						<td colspan="7" class="text-center">2700</td>
+					</tr>
+
+					<tr>
+						<th>前/后轮距(mm)</th>
+						<td>1540/1540</td>
+						<td>1540/1540</td>
+						<td>1540/1540</td>
+						<td>1540/1540</td>
+						<td>1540/1540</td>
+						<td>1540/1540</td>
+					</tr>
+
+					<tr>
+						<th>整备质量(kg)</th>
+						<td>1195</td>
+						<td>1203</td>
+						<td>1228</td>
+						<td>1242</td>
+						<td>1242</td>
+						<td>1260</td>
+					</tr>
+
+					<tr>
+						<th>行李厢容积(L)</th>
+						<td colspan="7" class="text-center">521</td>
+					</tr>
+
+					<tr>
+						<th>汽油箱容积(L)</th>
+						<td colspan="7" class="text-center">52</td>
+					</tr>
+					
+					<tr></tr>
+					
+					<!-- 动力系统 -->
+					<tr class="power bor">
+						<th><p>动力系统</p></th>
+					</tr>
+
+					<tr>
+						<th>发动机型号</th>
+						<td colspan="7" class="text-center">HR16</td>
+					</tr>
+
+					<tr>
+						<th>发动机型式</th>
+						<td colspan="7" class="text-center">全铝直列四缸(带DIS燃油双喷射技术及双C-VTC连续可变气门正时智能控制系统)</td>
+					</tr>
+
+					<tr>
+						<th>排气量(cc)</th>
+						<td colspan="7" class="text-center">1598</td>
+					</tr>
+
+					<tr>
+						<th>压缩比</th>
+						<td colspan="7" class="text-center">9.8:1</td>
+					</tr>
+
+					<tr>
+						<th>变速箱</th>
+						<td>5MT</td>
+						<td>5MT</td>
+						<td>全新XTRONIC CVT</td>
+						<td>全新XTRONIC CVT</td>
+						<td>全新XTRONIC CVT</td>
+						<td>全新XTRONIC CVT</td>
+					</tr>
+
+					<tr>
+						<th>额定功率(kw/rpm)</th>
+						<td colspan="7" class="text-center">93/5600</td>
+					</tr>
+
+					<tr>
+						<th>最大扭矩(N.m/rpm)</th>
+						<td colspan="7" class="text-center">154/4000</td>
+					</tr>
+
+					<tr>
+						<th>最高时速(km/h)</th>
+						<td>195</td>
+						<td>195</td>
+						<td>190</td>
+						<td>190</td>
+						<td>190</td>
+						<td>190</td>
+					</tr>
+
+					<tr>
+						<th>0-100km/h加速时间(s)</th>
+						<td>11.8</td>
+						<td>11.8</td>
+						<td>11.7</td>
+						<td>11.7</td>
+						<td>11.7</td>
+						<td>11.7</td>
+					</tr>
+
+					<tr>
+						<th>90km/h等速油耗(L/100km)①</th>
+						<td>5.2</td>
+						<td>5.2</td>
+						<td>5.2</td>
+						<td>5.3</td>
+						<td>5.3</td>
+						<td>5.3</td>
+					</tr>
+
+					<tr>
+						<th>综合工况油耗(L/100km)②</th>
+						<td>6.0</td>
+						<td>6.0</td>
+						<td>5.6</td>
+						<td>5.7</td>
+						<td>5.7</td>
+						<td>5.3</td>
+					</tr>
+
+					<tr>
+						<th>ISS怠速启停系统</th>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>●</td>
+					</tr>
+
+					<tr></tr>
+					
+					<!-- 行驶机构 -->
+					<tr class="travel bor">
+						<th><p>行驶机构</p></th>
+					</tr>
+
+					<tr>
+						<th>悬挂系统(前)</th>
+						<td colspan="7" class="text-center">麦弗逊式独立悬挂(带高刚性稳定杆)</td>
+					</tr>
+					
+					<tr>
+						<th>悬挂系统(后)</th>
+						<td colspan="7" class="text-center">扭力梁式悬挂(带高刚性稳定杆)</td>
+					</tr>
+					
+					<tr>
+						<th>制动系统(前/后)</th>
+						<td colspan="7" class="text-center">通风盘式/盘式</td>
+					</tr>
+
+					<tr>
+						<th>转向系统</th>
+						<td colspan="7" class="text-center">全新EPS车速感应式电动助力转向</td>
+					</tr>
+
+					<tr>
+						<th>轮胎规格</th>
+						<td>195/60R16</td>
+						<td>195/60R16</td>
+						<td>195/60R16</td>
+						<td>205/50R17</td>
+						<td>205/50R17</td>
+						<td>205/50R17</td>
+					</tr>
+
+					<tr>
+						<th>最小转弯半径(m)</th>
+						<td colspan="7" class="text-center">5.2</td>
+					</tr>
+
+					<tr>
+						<th>最小空载离地间隙(mm)</th>
+						<td>167</td>
+						<td>167</td>
+						<td>167</td>
+						<td>168</td>
+						<td>168</td>
+						<td>168</td>
+					</tr>
+
+					<tr></tr>
+					
+					<!-- 创动造型 -->
+					<tr class="abroad bor">
+						<th><p>创动造型</p></th>
+					</tr>
+		
+					<tr>
+						<th>无边悬浮车顶造型</th>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>日产全新演绎 V-Motion前脸</th>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>回旋镖式普通前大灯</th>
+						<td>●</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+
+					<tr>
+						<th>回旋镖式锐眼前大灯</th>
+						<td>-</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>LED光导视光灯</th>
+						<td>-</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>LED后视镜转向灯</th>
+						<td>-</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>高质感犀利前雾灯</th>
+						<td>-</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>-</td>
+						<td>●</td>
+					</tr>
+
+					<tr>
+						<th>LED日间行车灯</th>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>●</td>
+						<td>-</td>
+					</tr>
+
+					<tr>
+						<th>酷黑电动天窗</th>
+						<td>-</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+						<td>●</td>
+					</tr>
+				</table>
+			</div>	
+			<hr style="width:1030px;border-bottom: 1px #02abd6 solid">		
+		</div>
+	</div>
+
+	<div class="display6 section">
+		<div class="dl6Conetent">
+			<ul class="navul">
+				<li class="black1 bluebg1"></li>
+				<li class="black2"></li>
+				<li class="black3"></li>
+				<li class="black4"></li>
+				<li class="black5"></li>
+				<li class="black6"></li>
+			</ul>
+
+			<div class="more">
+				<img src="./img/more.png" alt="">
+			</div>
+
+			<!-- 纯正精品 -->
+			<div class="navConcent1 navul_show navConcent_show">
+				<ul class="navClink">
+					<li class="small1 big1"></li>
+					<li class="small2"></li>
+					<li class="small3"></li>
+					<li class="small4"></li>
+				</ul>
+
+				<div class="showClink">
+					<img class="upslope" src="./img/pic1.png" alt="">
+					<img src="./img/pic2.png" alt="">
+					<img src="./img/pic3.png" alt="">
+					<img src="./img/pic4.png" alt="">
+				</div>
+
+				<div class="dot">
+					<span class="showDot"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			
+			</div>
+
+			<!-- 品牌故事 -->
+			<div class="navConcent2 navul_show"></div>
+
+			<!-- 迷笛X蓝鸟之夜 -->
+			<div class="navConcent3 navul_show">
+				<img src="./img/midi-btn.png" alt="" id="ggsmd">
+				<!-- 蓝鸟之夜点击显示的内容 -->
+				<div class="showact">
+					<div class="wrapact">
+						<div class="tableCon">
+							<ul class="tab">
+								<li class="tabli">
+									<span>场次</span>
+									<span>时间</span>
+									<span>星期</span>
+									<span>地区</span>
+									<span>场地	</span>
+									<i>地址</i>									
+									<span>容纳人数</span>
+								</li>
+							</ul>	
+							<ul class="tab2">	
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>789livvehouse</span>
+									<i>朝阳区酒仙桥路4号798艺术区七星西街1号</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>斑马</span>
+									<i>鼓楼区湖南路16</i>	
+									<span>500</span>
+								</li>
+
+								<li>
+									<span>1</span>
+									<span>10月31</span>
+									<span>星期六</span>
+									<span>北京</span>
+									<span>派现场</span>
+									<i>河北区万柳村大街56号 纺织机械厂院内</i>	
+									<span>500</span>
+								</li>
+							</ul>	
+											
+							<div class="btnshowact"></div>								
+						</div>
+					</div>
+				</div>				
+			</div>
+			
+			<!-- 潮牌合作 -->
+       		<div class="navConcent4 navul_show">			
+				<div class="lichen"></div>
+				<div class="zhengkai"></div>
+				<div class="chenjianzhou"></div>
+				
+				
+				<!-- 澎湃图集 -->
+				<div class="atlas"></div>
+				
+				<!-- 视频 -->
+				<div class="video"></div>
+				
+				<!-- 新闻 -->
+				<div class="news">
+					<a href="#"></a>
+				</div>
+			</div>
+			
+			<!-- 蓝鸟图集 -->
+			<div class="navConcent5 navul_show">
+				<div class="wrapConcent5">
+					<div class="showAtlas1">
+						<ul class="imgAtlas1">
+							<li><img src="./img/pic08.png" alt=""></li>
+							<li><img src="./img/pic09.png" alt=""></li>
+							<li><img src="./img/pic10.png" alt=""></li>
+							<li><img src="./img/pic11.png" alt=""></li>
+							<li><img src="./img/pic12.png" alt=""></li>
+							<li><img src="./img/pic13.png" alt=""></li>
+							<li><img src="./img/pic14.png" alt=""></li>			
+						</ul>
+						<span class="atlas1L"></span>
+						<span class="atlas1R"></span>
+					</div>
+
+					<div class="showAtlas2">
+						<ul class="imgAtlas2">
+							<li class="bgblue"><img src="./img/pic08.png" alt=""></li>
+							<li><img src="./img/pic09.png" alt=""></li>
+							<li><img src="./img/pic10.png" alt=""></li>
+							<li><img src="./img/pic11.png" alt=""></li>
+							<li><img src="./img/pic12.png" alt=""></li>
+							<li><img src="./img/pic13.png" alt=""></li>
+							<li><img src="./img/pic14.png" alt=""></li>				
+						</ul>
+						<span class="atlas2L"></span>
+						<span class="atlas2R"></span>
+					</div>		
+				</div>
+			</div>
+
+			<!-- 媒体声音 -->
+			<div class="navConcent6 navul_show">
+				<div class="wrapConcent6"> 
+					<img src="./img/eee.png" alt="">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<!-- 明星潮流 -->
+<div class="wrapLc">					
+	<div class="showLc">
+		<ul class="imgLc">
+			<li><img src="./img/lc1.png" alt=""></li>
+			<li><img src="./img/lc2.png" alt=""></li>
+			<li><img src="./img/lc3.png" alt=""></li>
+		</ul>
+		<span class="leftLc"></span>
+		<span class="ringhtLc"></span>
+		<span class="closeLc"></span>
+	</div>
+</div>
+<!-- 明星潮流 end-->
+
+<!-- 点击澎湃图集显示的内容 -->
+<!-- <div class="wrapAtlas">
+
+	<div class="closeAtlas"></div>
+	
+	<div class="showAtlas1">
+		<ul class="imgAtlas1">
+			<li><img src="./img/pic01.png" alt=""></li>
+			<li><img src="./img/pic02.png" alt=""></li>
+			<li><img src="./img/pic03.png" alt=""></li>
+			<li><img src="./img/pic04.png" alt=""></li>
+			<li><img src="./img/pic05.png" alt=""></li>
+			<li><img src="./img/pic06.png" alt=""></li>
+			<li><img src="./img/pic07.png" alt=""></li>
+			
+		</ul>
+		<span class="atlas1L"></span>
+		<span class="atlas1R"></span>
+	</div>
+
+	<div class="showAtlas2">
+		<ul class="imgAtlas2">
+			<li class="bgblue"><img src="./img/pic01.png" alt=""></li>
+			<li><img src="./img/pic02.png" alt=""></li>
+			<li><img src="./img/pic03.png" alt=""></li>
+			<li><img src="./img/pic04.png" alt=""></li>
+			<li><img src="./img/pic05.png" alt=""></li>
+			<li><img src="./img/pic06.png" alt=""></li>
+			<li><img src="./img/pic07.png" alt=""></li>
+			
+		</ul>
+		<span class="atlas2L"></span>
+		<span class="atlas2R"></span>
+	</div>				
+</div> -->
+<!-- 点击澎湃图集显示的内容 end-->
+
+<!-- 点击视频显示 -->
+<div class="wrapVideo">
+	<div class="closeVideo"></div>
+	<div class="showVideo">
+		<embed src='http://player.youku.com/player.php/sid/XMjQ4MjQxNDY0MA==/v.swf' allowFullScreen='true' quality='high' width='896' height='504' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+	</div>
+</div>
+<!-- 点击视频显示 end-->
+
+	
+<script src="js/swiper.min.js"></script>
+<script src="js/rotate.js"></script>
+<script src="js/dislay6.js"></script>	
+<script>
+	
+	//本页面的切换
+	var topDiv = document.querySelector(".top");
+	var bottonDiv = document.querySelector(".bottom");
+	var section = document.querySelectorAll(".section");
+	var menus = document.querySelectorAll(".menu");
+	var cloneDiv = section[0].cloneNode(true);
+	var current = 1;
+	var off = false;
+
+	
+	//阻止放大旋转冒泡
+	topDiv.addEventListener("webkitAnimationEnd",function(e){
+		e.stopPropagation();
+	});
+	bottonDiv.addEventListener("webkitAnimationEnd",function(e){
+		e.stopPropagation();
+	});
+
+
+	//top显示第一个display
+	topDiv.appendChild(cloneDiv);
+	
+
+	//循环给菜单添加事件
+	for(var i = 0; i < menus.length; i++){
+		menus[i].index = i;
+		menus[i].onclick = function(){
+			// if(this.index == 5){
+			// 	bb();
+			// }
+			//动画完成才继续执行+
+			if(off){
+				return false;
+			}
+			off = true;
+			
+
+			//判断top，bottom位置
+			current = current == 1 ? 2 : 1;
+			var curretnDiv = current == 1 ? topDiv : bottonDiv;
+			var sec = section[this.index].cloneNode(true);
+			
+			curretnDiv.innerHTML = "";
+			curretnDiv.appendChild(sec);
+
+			//右侧菜单效果
+			menuEffect(this.index);
+
+			//放大旋转
+			run();
+
+
+			if(this.index == 0){
+				swiper();
+			}if(this.index == 5){
+				all();
+			}		
+		}
+	}
+
+	//菜单效果
+	function menuEffect(index){
+		for(var i = 0; i < menus.length; i++){
+			menus[i].classList.remove("active"); //清除menus所有class
+		}
+		menus[index].classList.add("active");
+	}
+
+
+	//轮播图，每次点击第一个都需要执行
+	function swiper(){
+
+		var mySwiper = new Swiper ('.swiper-container', {
+	    loop: true,
+	    
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	    
+	    paginationClickable : true,
+
+	    autoplay : 5000
+	  }); 
+	}
+	swiper();
+
+
+
+
+
+
+	//冒泡事件也可以给复制上来的html添加事件   
+	// var body = document.getElementsByTagName("body")[0];
+	// var showact = document.querySelector(".showact");
+	// document.onclick = function(e){
+	// 	var e = window.event || e;
+	// 	console.log(e);
+
+	// 	if(e.target.id == "ggsmd"){
+	// 		showact.style.display = "block";
+	// 	}
+
+	// }
+  </script>
+
+</body>
+</html>

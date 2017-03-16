@@ -1,0 +1,134 @@
+body,html{
+	background-color:#f7f7f7;
+}
+
+header{
+	font-size: 0.4375rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	display: flex;
+}
+header *{
+	display: inline-block;
+	flex: 1;
+}
+.padd{
+	padding: 0 3%;
+	width: 100%;
+	box-sizing: border-box;
+}
+.back{
+	font-size: 0.4688rem;
+	font-family: "SimSun";
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.h60{
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	border-bottom: 1px solid #eee;
+}
+.head-img{
+	width: 100%;
+	height: 3.75rem;
+	position: absolute;
+	top: 0;
+}
+.head-img img{
+	width: 100%;
+}
+.personal{
+	width: 100%;
+	position:relative;
+	font-size: 0.3438rem;
+	margin-bottom: 0.4688rem;
+	height: 3.75rem;
+}
+.personal-info{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	color: #fff;
+	height: 3.75rem;
+}
+.personal-info a{
+	color:#fff;
+}
+.personal-info p:first-child{
+	margin-top: 0.7031rem;
+	line-height: 0.9375rem;
+}
+.personal-info .score{
+	font-size: 0.75rem;
+}
+.personal p{
+	line-height:0.7031rem;
+}
+.personal-info p.income{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 0.9375rem;
+	height: 0.9375rem;
+	font-size: 0.3438rem;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.2);
+}
+.personal-info p.income a{
+	display: inline-block;
+	flex: 1;
+	color:#dc968c;
+	font-family: "Microsoft YaHei"
+}
+p.income a:first-child{
+	color: #fff;
+}
+.score-list{
+	width: 100%;
+	background-color: #fff;
+}
+.score-list ul li{
+	width: 100%;
+	overflow: hidden;
+	padding: 15px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+}
+.score-list ul li div{
+	display: inline-block;
+	float: left;
+}
+.score-left img{
+	width: 1.2969rem;
+	height: 1.2969rem;
+}
+.score-left{
+	margin-right: 5px;
+}
+.goods-title{
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.center-span{
+	display: inline-block;
+	width: 5.7812rem;
+}
+.center-span em{
+	display: inline-block;
+	padding:0.0781rem 0.1562rem;
+	border:1px solid #eee;
+	border-radius: 3px;
+	margin-top: 0.2344rem;
+}
+.score-right p{
+	line-height: 0.4688rem;
+}
+.add-score{
+	margin-top: 0.2344rem;
+	font-size: 0.375rem;
+}

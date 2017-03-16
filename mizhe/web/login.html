@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="../js/flexible.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div class="container">
+			<header>
+				<a href="javascript:window.history.back();"><</a>
+				<h2>登录</h2>
+			</header>
+			<div class="content">
+				<form action="#" method="">
+					<div class="form-item">
+						<input type="text" placeholder="用户名/邮箱/手机" name="username"></div>
+					<div class="form-item form-item2">
+						<input type="password" placeholder="请输入密码" name="password">
+						<div class="psw-ctrl ">
+							<span></span>
+						</div>
+					</div>
+					<div class="form-item form-item3" >
+						<input type="text" placeholder="请输入验证码" name="vcode"> 
+						<img src="../img/pic_vcode.png" alt="" class="fr">
+					</div>
+					<div>
+						<input type="submit" value="登录" class="form-item4 " id="btn">
+					</div>
+				</form>
+				<div class="form-btn fr">
+					<a href="register.html">快速注册</a>
+				</div>
+			</div>
+	</div>
+
+	<script src="../js/login.js"></script>
+</body>
+</html>
