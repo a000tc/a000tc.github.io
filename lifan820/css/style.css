@@ -4,6 +4,7 @@
 	width:100%;
 	min-width: 1280px;
 	user-select:none;
+	font-family:"Microsoft YaHei";
 	}
 	*{
 		margin:0 ;
@@ -619,6 +620,7 @@ margin-left: 166px;
 	.p_center{
 		text-align: center;
 		line-height: 2;
+
 	}
 	.exp_ul li.move_down{
 		position: relative;
